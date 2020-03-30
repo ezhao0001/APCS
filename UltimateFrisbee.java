@@ -13,6 +13,9 @@ public class Person{
     }
 }
 
+
+
+
   public class UltimatePlayer extends Person {
   private int jerseyNumber;
   private static int num;
@@ -40,7 +43,11 @@ public class Person{
   }
 }
   
-   public class Captain extends UltimatePlayer {
+  
+
+
+
+public class Captain extends UltimatePlayer {
     
   boolean type;
   
@@ -61,7 +68,11 @@ public class Person{
   }
 }
  
-  public class Coach extends Person{
+
+
+
+
+public class Coach extends Person{
     
     String role;
     
@@ -75,6 +86,13 @@ public class Person{
     }
 }
       
+
+
+
+
+
+
+
 import java.util.ArrayList;
 
 public class UltimateTeam
